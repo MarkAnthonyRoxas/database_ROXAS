@@ -63,6 +63,7 @@
             this.button3.TabIndex = 23;
             this.button3.Text = "Refresh";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -74,6 +75,7 @@
             this.button2.TabIndex = 22;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -85,6 +87,7 @@
             this.button1.TabIndex = 21;
             this.button1.Text = "Register";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -251,6 +254,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FrmClubRegistration";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmClubRegistration_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.panel1.ResumeLayout(false);
